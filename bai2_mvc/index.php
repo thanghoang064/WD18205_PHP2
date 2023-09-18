@@ -11,3 +11,12 @@ switch ($url) {
         break;
     // kiểm tra case = add-producrt điều hướng về hàm addProduct
 }
+
+// xây dựng 1 bảng trên CSDL  (customer) gồm id,ten,tuoi
+//tạo model Customer xây dựng những hàm getCustomer,
+//addCustomer - thêm
+//editCustomer - Sửa
+//deleteCustomer - xóa
+// hoàn thiện các chức năng danh sách customer, thêm
+//sửa,xóa customer
+// lấy điểm lab 1 + 2
