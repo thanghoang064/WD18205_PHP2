@@ -19,13 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62dd2e78-8210-44bc-ad00-86dd5be6d90d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bai2_mvc/controllers/ProductController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai2_mvc/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai2_mvc/models/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai2_mvc/models/db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai2_mvc/models/env.php" afterDir="false" />
+    <list default="true" id="62dd2e78-8210-44bc-ad00-86dd5be6d90d" name="Default Changelist" comment="update project">
+      <change afterPath="$PROJECT_DIR$/bai2_mvc/views/product/list.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai2_mvc/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/bai2_mvc/controllers/ProductController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +70,17 @@
       <workItem from="1694419880951" duration="3205000" />
       <workItem from="1694589809490" duration="6231000" />
       <workItem from="1694755478265" duration="31000" />
-      <workItem from="1694764546525" duration="3419000" />
+      <workItem from="1694764546525" duration="3870000" />
+      <workItem from="1695021862528" duration="1843000" />
     </task>
+    <task id="LOCAL-00001" summary="update project">
+      <created>1694768271303</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694768271303</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,13 +96,22 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update project" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="334" y="309" key="NewPhpFileDialog" timestamp="1694767731884">
-      <screen x="0" y="25" width="1024" height="702" />
+    <state x="334" y="309" key="NewPhpFileDialog" timestamp="1695023505554">
+      <screen x="0" y="25" width="1024" height="701" />
     </state>
     <state x="334" y="311" key="NewPhpFileDialog/0.0.1024.768@0.0.1024.768" timestamp="1694419992554" />
-    <state x="334" y="309" key="NewPhpFileDialog/0.25.1024.701@0.25.1024.701" timestamp="1694593527516" />
+    <state x="334" y="309" key="NewPhpFileDialog/0.25.1024.701@0.25.1024.701" timestamp="1695023505554" />
     <state x="334" y="309" key="NewPhpFileDialog/0.25.1024.702@0.25.1024.702" timestamp="1694767731884" />
+    <state x="112" y="100" key="Vcs.Push.Dialog.v2" timestamp="1694768273218">
+      <screen x="0" y="25" width="1024" height="702" />
+    </state>
+    <state x="112" y="100" key="Vcs.Push.Dialog.v2/0.25.1024.702@0.25.1024.702" timestamp="1694768273218" />
   </component>
 </project>
