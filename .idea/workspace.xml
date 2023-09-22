@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62dd2e78-8210-44bc-ad00-86dd5be6d90d" name="Default Changelist" comment="update project">
-      <change beforePath="$PROJECT_DIR$/bai2_mvc/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/bai2_mvc/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai2_mvc/views/product/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/bai2_mvc/views/product/list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai3_oop/oop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai2_mvc/models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai3_oop" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,6 +55,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bai3_oop" />
       <recent name="$PROJECT_DIR$/bai2_mvc/models" />
     </key>
   </component>
@@ -70,7 +71,8 @@
       <workItem from="1694589809490" duration="6231000" />
       <workItem from="1694755478265" duration="31000" />
       <workItem from="1694764546525" duration="3870000" />
-      <workItem from="1695021862528" duration="2211000" />
+      <workItem from="1695021862528" duration="3097000" />
+      <workItem from="1695367813876" duration="1725000" />
     </task>
     <task id="LOCAL-00001" summary="update project">
       <created>1694768271303</created>
@@ -86,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695024121705</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update project">
+      <created>1695024319081</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695024319081</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,16 +118,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="update project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="334" y="309" key="NewPhpFileDialog" timestamp="1695023505554">
-      <screen x="0" y="25" width="1024" height="701" />
+    <state x="334" y="306" key="NewPhpFileDialog" timestamp="1695367840707">
+      <screen x="0" y="25" width="1024" height="693" />
     </state>
     <state x="334" y="311" key="NewPhpFileDialog/0.0.1024.768@0.0.1024.768" timestamp="1694419992554" />
+    <state x="334" y="306" key="NewPhpFileDialog/0.25.1024.693@0.25.1024.693" timestamp="1695367840707" />
     <state x="334" y="309" key="NewPhpFileDialog/0.25.1024.701@0.25.1024.701" timestamp="1695023505554" />
     <state x="334" y="309" key="NewPhpFileDialog/0.25.1024.702@0.25.1024.702" timestamp="1694767731884" />
-    <state x="112" y="100" key="Vcs.Push.Dialog.v2" timestamp="1695024123527">
+    <state x="112" y="100" key="Vcs.Push.Dialog.v2" timestamp="1695024320547">
       <screen x="0" y="25" width="1024" height="700" />
     </state>
-    <state x="112" y="100" key="Vcs.Push.Dialog.v2/0.25.1024.700@0.25.1024.700" timestamp="1695024123527" />
+    <state x="112" y="100" key="Vcs.Push.Dialog.v2/0.25.1024.700@0.25.1024.700" timestamp="1695024320547" />
     <state x="112" y="100" key="Vcs.Push.Dialog.v2/0.25.1024.702@0.25.1024.702" timestamp="1694768273218" />
   </component>
 </project>
