@@ -44,12 +44,3 @@ class SinhVien{
 //$sv1 = new SinhVien();
 //echo $sv1->getInfo();
 
-//tạo 1 class GiangVien gồm các thuộc tính :maGV,tenGV,namBatDau,
-//luongCB,soGioday
-// tạo phương thức khởi tạo có tham số truyền vào cho class trên
-// xây dựng phương thức tinhLuong có trả về = luongCB * soGioday
-// xây dựng phương thức tinhThamNien có trả về
-// = namHienTai - namBatDau
-// xây dựng hàm hiển thị thông tin gồm các thông tin
-//maGV,tenGV,namBatDau,
-//Tongluon,thamnien
