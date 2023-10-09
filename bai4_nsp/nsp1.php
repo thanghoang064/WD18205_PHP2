@@ -1,5 +1,5 @@
 <?php
-namespace NSP1;
+namespace NSP11111111111111111111111111111111111111;
 class SinhVien {
     public $ten;
     public $namSinh;
@@ -10,4 +10,7 @@ class SinhVien {
     public function hienThiThongTin() {
         echo "Tên".$this->ten."Năm sinh".$this->namSinh;
     }
+}
+class Abc {
+
 }

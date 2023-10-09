@@ -1,7 +1,10 @@
 <?php
 include_once "nsp1.php";
 include_once "nsp2.php";
+use NSP11111111111111111111111111111111111111 as NSP1;
+// đổi tên cho namespace
 $sv = new NSP1\SinhVien("Thang",1996);
+$abc = new NSP1\Abc();
 $sv->hienThiThongTin();
 $sv1 = new NSP2\SinhVien("Thang",18);
 $sv1->hienThiThongTin();
