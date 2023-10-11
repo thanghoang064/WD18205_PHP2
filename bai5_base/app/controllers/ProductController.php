@@ -1,13 +1,20 @@
 <?php
 namespace App\Controllers;
-class ProductController  {
+use App\Models\Product;
+class ProductController extends BaseController {
+    public $product;
     public function __construct() {
 //        echo "Đây là product controller";
+        $this->product = new Product();
     }
     public function index() {
-        echo "đây là trang danh sách product";
+       $products = $this->product->getProduct();
+       $title = "ABC";
+       $header = "Đây là trang danh sách product";
+       return $this->render('product.index',compact('title','header','products'));
     }
     public function add() {
+
         echo "Đây là trang thêm sản phẩm ";
     }
 

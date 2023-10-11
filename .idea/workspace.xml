@@ -20,26 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62dd2e78-8210-44bc-ad00-86dd5be6d90d" name="Default Changelist" comment="update project">
-      <change afterPath="$PROJECT_DIR$/bai5_base/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai5_base/app/controllers/CustomerController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai5_base/app/controllers/ProductController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai5_base/app/models/BaseModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai5_base/app/models/Customer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai5_base/app/models/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai5_base/common/route.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai5_base/env.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai5_base/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5_base/app/controllers/BaseController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5_base/app/views/layout/main.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5_base/app/views/layout/style.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5_base/app/views/product/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5_base/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/WD18205_PHP2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WD18205_PHP2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai4_nsp/nsp.php" beforeDir="false" afterPath="$PROJECT_DIR$/bai4_nsp/nsp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai4_nsp/nsp1.php" beforeDir="false" afterPath="$PROJECT_DIR$/bai4_nsp/nsp1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai5_base/app/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/bai5_base/app/controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai5_base/env.php" beforeDir="false" afterPath="$PROJECT_DIR$/bai5_base/env.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/bai5_base/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -50,6 +46,7 @@
     <include_path>
       <path value="$PROJECT_DIR$/bai5_base/vendor/composer" />
       <path value="$PROJECT_DIR$/bai5_base/vendor/phroute/phroute" />
+      <path value="$PROJECT_DIR$/bai5_base/vendor/eftec/bladeone" />
     </include_path>
   </component>
   <component name="ProjectId" id="2VF7GgAPaPtYAKS1YFsIJKon0OA" />
@@ -61,7 +58,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai5_base/app/models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai5_base/app/views/layout" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,10 +70,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bai5_base/app/views/layout" />
+      <recent name="$PROJECT_DIR$/bai5_base/public" />
+      <recent name="$PROJECT_DIR$/bai5_base/app/controllers" />
       <recent name="$PROJECT_DIR$/bai5_base/app/models" />
       <recent name="$PROJECT_DIR$/bai5_base/common" />
-      <recent name="$PROJECT_DIR$/bai3_oop" />
-      <recent name="$PROJECT_DIR$/bai2_mvc/models" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -101,7 +99,9 @@
       <workItem from="1696404854559" duration="4169000" />
       <workItem from="1696562452282" duration="2092000" />
       <workItem from="1696578269727" duration="4100000" />
-      <workItem from="1696836485272" duration="4577000" />
+      <workItem from="1696836485272" duration="5089000" />
+      <workItem from="1697001949912" duration="27000" />
+      <workItem from="1697009218879" duration="4879000" />
     </task>
     <task id="LOCAL-00001" summary="update project">
       <created>1694768271303</created>
@@ -152,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696409023849</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update project">
+      <created>1696841906657</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696841906657</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,10 +186,10 @@
       <screen x="0" y="0" width="1024" height="768" />
     </state>
     <state x="154" y="150" key="MultipleFileMergeDialog/0.0.1024.768@0.0.1024.768" timestamp="1696409046769" />
-    <state x="334" y="311" key="NewPhpFileDialog" timestamp="1696839694815">
+    <state x="334" y="311" key="NewPhpFileDialog" timestamp="1697011058718">
       <screen x="0" y="0" width="1024" height="768" />
     </state>
-    <state x="334" y="311" key="NewPhpFileDialog/0.0.1024.768@0.0.1024.768" timestamp="1696839694815" />
+    <state x="334" y="311" key="NewPhpFileDialog/0.0.1024.768@0.0.1024.768" timestamp="1697011058718" />
     <state x="470" y="365" key="NewPhpFileDialog/0.0.1440.900/1440.25.1024.743@0.0.1440.900" timestamp="1695629808392" />
     <state x="470" y="364" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1696563000714" />
     <state x="334" y="306" key="NewPhpFileDialog/0.25.1024.693@0.25.1024.693" timestamp="1695367840707" />
@@ -193,10 +200,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="467" y="157" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1696570815429" />
-    <state x="112" y="82" key="Vcs.Push.Dialog.v2" timestamp="1696409065905">
+    <state x="112" y="82" key="Vcs.Push.Dialog.v2" timestamp="1696841908087">
       <screen x="0" y="0" width="1024" height="768" />
     </state>
-    <state x="112" y="82" key="Vcs.Push.Dialog.v2/0.0.1024.768@0.0.1024.768" timestamp="1696409065905" />
+    <state x="112" y="82" key="Vcs.Push.Dialog.v2/0.0.1024.768@0.0.1024.768" timestamp="1696841908087" />
     <state x="112" y="99" key="Vcs.Push.Dialog.v2/0.25.1024.693@0.25.1024.693" timestamp="1695369550401" />
     <state x="112" y="99" key="Vcs.Push.Dialog.v2/0.25.1024.696@0.25.1024.696" timestamp="1695371836900" />
     <state x="112" y="100" key="Vcs.Push.Dialog.v2/0.25.1024.700@0.25.1024.700" timestamp="1695024320547" />
