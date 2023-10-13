@@ -20,15 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62dd2e78-8210-44bc-ad00-86dd5be6d90d" name="Default Changelist" comment="update project">
-      <change afterPath="$PROJECT_DIR$/bai5_base/app/controllers/BaseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai5_base/app/views/layout/main.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai5_base/app/views/layout/style.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai5_base/app/views/product/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai5_base/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WD18205_PHP2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WD18205_PHP2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5_base/app/views/product/add.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai5_base/app/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/bai5_base/app/controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai5_base/common/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/bai5_base/common/route.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai5_base/env.php" beforeDir="false" afterPath="$PROJECT_DIR$/bai5_base/env.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai5_base/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/bai5_base/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +98,8 @@
       <workItem from="1696578269727" duration="4100000" />
       <workItem from="1696836485272" duration="5089000" />
       <workItem from="1697001949912" duration="27000" />
-      <workItem from="1697009218879" duration="4879000" />
+      <workItem from="1697009218879" duration="5199000" />
+      <workItem from="1697174664427" duration="5077000" />
     </task>
     <task id="LOCAL-00001" summary="update project">
       <created>1694768271303</created>
@@ -159,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696841906657</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update project">
+      <created>1697014510355</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697014510355</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,10 +191,10 @@
       <screen x="0" y="0" width="1024" height="768" />
     </state>
     <state x="154" y="150" key="MultipleFileMergeDialog/0.0.1024.768@0.0.1024.768" timestamp="1696409046769" />
-    <state x="334" y="311" key="NewPhpFileDialog" timestamp="1697011058718">
+    <state x="334" y="311" key="NewPhpFileDialog" timestamp="1697174861003">
       <screen x="0" y="0" width="1024" height="768" />
     </state>
-    <state x="334" y="311" key="NewPhpFileDialog/0.0.1024.768@0.0.1024.768" timestamp="1697011058718" />
+    <state x="334" y="311" key="NewPhpFileDialog/0.0.1024.768@0.0.1024.768" timestamp="1697174861003" />
     <state x="470" y="365" key="NewPhpFileDialog/0.0.1440.900/1440.25.1024.743@0.0.1440.900" timestamp="1695629808392" />
     <state x="470" y="364" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1696563000714" />
     <state x="334" y="306" key="NewPhpFileDialog/0.25.1024.693@0.25.1024.693" timestamp="1695367840707" />
@@ -200,10 +205,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="467" y="157" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1696570815429" />
-    <state x="112" y="82" key="Vcs.Push.Dialog.v2" timestamp="1696841908087">
+    <state x="112" y="82" key="Vcs.Push.Dialog.v2" timestamp="1697014512039">
       <screen x="0" y="0" width="1024" height="768" />
     </state>
-    <state x="112" y="82" key="Vcs.Push.Dialog.v2/0.0.1024.768@0.0.1024.768" timestamp="1696841908087" />
+    <state x="112" y="82" key="Vcs.Push.Dialog.v2/0.0.1024.768@0.0.1024.768" timestamp="1697014512039" />
     <state x="112" y="99" key="Vcs.Push.Dialog.v2/0.25.1024.693@0.25.1024.693" timestamp="1695369550401" />
     <state x="112" y="99" key="Vcs.Push.Dialog.v2/0.25.1024.696@0.25.1024.696" timestamp="1695371836900" />
     <state x="112" y="100" key="Vcs.Push.Dialog.v2/0.25.1024.700@0.25.1024.700" timestamp="1695024320547" />

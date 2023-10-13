@@ -21,6 +21,9 @@ $router->get('/', function(){
 //định nghĩa đường dẫn trỏ đến Product Controller
 $router->get('list-product',[App\Controllers\ProductController::class,'index']);
 $router->get('add-product',[\App\Controllers\ProductController::class,'add']);
+$router->post('post-product',[App\Controllers\ProductController::class,'postProduct']);
+
+
 // khu vực cần quan tâm -----------
 //$router->get('test', [App\Controllers\ProductController::class, 'index']);
 

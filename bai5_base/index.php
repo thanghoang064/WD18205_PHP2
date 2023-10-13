@@ -1,4 +1,5 @@
 <?php
+session_start(); // kích hoạt session
 //require_once "app/models/Product.php";
 //require_once "app/models/Customer.php";
 //require_once "app/controllers/ProductController.php";
