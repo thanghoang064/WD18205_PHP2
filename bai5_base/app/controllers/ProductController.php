@@ -42,5 +42,17 @@ class ProductController extends BaseController {
         }
         // khi nào ấn submit dữ liệu sẽ gửi vào trong này
     }
+    public function detailProduct($id) {
+       $product =  $this->product->getDetailProduct($id);
+       return $this->render('product.edit',compact('product'));
+    }
+    public function updateProduct($id){
+        if(isset($_POST['edit'])){
+            $result = $this->product->updateProduct($id, $_POST['ten_sp'], $_POST['gia']);
+            if ($result){
+                flash('success', 'Sửa thành công', 'list-product');
+            }
+        }
+    }
 
 }

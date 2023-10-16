@@ -22,6 +22,9 @@ $router->get('/', function(){
 $router->get('list-product',[App\Controllers\ProductController::class,'index']);
 $router->get('add-product',[\App\Controllers\ProductController::class,'add']);
 $router->post('post-product',[App\Controllers\ProductController::class,'postProduct']);
+$router->get('detail-product/{id}',[\App\Controllers\ProductController::class,'detailProduct']);
+$router->post('update-product/{id}',[\App\Controllers\ProductController::class,'updateProduct'] );
+
 
 
 // khu vực cần quan tâm -----------
